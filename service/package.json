@@ -1,0 +1,16 @@
+{
+  "name": "nodejs-docker",
+  "version": "1.0.0",
+  "description": "Example nodeJS with docker",
+  "main": "userService.js",
+  "scripts": {
+    "start": "node userService.js"
+  },
+  "author": "Juan Guillermo Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1"
+  }
+}

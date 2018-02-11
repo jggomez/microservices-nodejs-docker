@@ -1,0 +1,21 @@
+{
+  "name": "tokengenerator",
+  "version": "1.0.0",
+  "description": "This project has the code for generate a JWT",
+  "main": "tokenController.js",
+  "scripts": {
+    "start": "node tokenController.js"
+  },
+  "keywords": [
+    "jwt",
+    "docker"
+  ],
+  "author": "Juan Guillermo Gómez",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "jsonwebtoken": "^8.1.1",
+    "moment": "^2.20.1"
+  }
+}
