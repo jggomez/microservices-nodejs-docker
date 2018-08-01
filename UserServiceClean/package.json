@@ -1,0 +1,40 @@
+{
+  "name": "userserviceclean",
+  "version": "1.0.0",
+  "description": "API user with clean architecture",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "dev": "nodemon",
+    "start": "node index.js",
+    "deploy": "gcloud app deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jggomez/microservices-nodejs-docker.git"
+  },
+  "keywords": [
+    "clean",
+    "architecture",
+    "nodejs",
+    "api"
+  ],
+  "author": "Juan Guillermo Gómez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jggomez/microservices-nodejs-docker/issues"
+  },
+  "homepage": "https://github.com/jggomez/microservices-nodejs-docker#readme",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-promise": "^3.8.0",
+    "nodemon": "^1.18.3"
+  },
+  "dependencies": {
+    "blipp": "^3.0.0",
+    "hapi": "^17.5.2",
+    "jsonwebtoken": "^8.3.0",
+    "require-directory": "^2.1.1"
+  }
+}

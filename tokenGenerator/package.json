@@ -17,5 +17,14 @@
     "express": "^4.16.2",
     "jsonwebtoken": "^8.1.1",
     "moment": "^2.20.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jggomez/microservices-nodejs-docker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jggomez/microservices-nodejs-docker/issues"
+  },
+  "homepage": "https://github.com/jggomez/microservices-nodejs-docker#readme"
 }
