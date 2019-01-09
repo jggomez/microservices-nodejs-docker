@@ -32,6 +32,7 @@
     "nodemon": "^1.18.3"
   },
   "dependencies": {
+    "@google-cloud/pubsub": "^0.22.2",
     "blipp": "^3.0.0",
     "hapi": "^17.5.2",
     "jsonwebtoken": "^8.3.0",

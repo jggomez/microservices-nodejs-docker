@@ -9,8 +9,12 @@ module.exports = class extends UserRepository {
     }
 
     save(user) {
-        const userDataSource = this.userSourceFactory.crearCacheSource();
-        return userDataSource.save(user);
+        const userCacheSource = this.userSourceFactory.crearCacheSource();
+        const userPubSubSource = this.userSourceFactory.crearCacheSource();
+        return userCacheSource.save(user)
+            .then(() => {
+                return userPubSubSource.save(user);
+            });
     }
 
     remove(idUser) {
