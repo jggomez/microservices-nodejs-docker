@@ -10,7 +10,7 @@ module.exports = class extends UserRepository {
 
     save(user) {
         const userCacheSource = this.userSourceFactory.crearCacheSource();
-        const userPubSubSource = this.userSourceFactory.crearCacheSource();
+        const userPubSubSource = this.userSourceFactory.crearPubSubSource();
         return userCacheSource.save(user)
             .then(() => {
                 return userPubSubSource.save(user);
